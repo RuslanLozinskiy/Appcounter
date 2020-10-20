@@ -1,6 +1,6 @@
 "use strict";
-let counterMiniS = document.getElementById("counterMiniS");
-let counterS = document.getElementById("counterS");
-let start = document.getElementById('start');
-let reset = document.getElementById('reset');
-let pause = document.getElementById('pause');
+
+let getCounterS = document.getElementById("counterS");
+let buttonStart = document.getElementById('start');
+let buttonReset = document.getElementById('reset');
+let buttonPause = document.getElementById('pause');
