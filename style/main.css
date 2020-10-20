@@ -1,0 +1,14 @@
+.container {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    
+}
+.counter {
+    color: black;
+    
+}
