@@ -1,16 +1,14 @@
-buttonStart.addEventListener('click', start);
+let getNumber = document.getElementById('container');
+let n = 0;
 function start() {
-    let getCounterMiniS = document.getElementById("counterMiniS");
-    let miniSec = 0;
-    let time = setInterval(mSec, 100);
-    function mSec() {
-        if(miniSec === 10) {
-            clearInterval(time);
-            
-        } else {
-            miniSec++;
-           getCounterMiniS.innerHTML = miniSec + 1;
-        }
+    if(n === 100) {
+        return n = 0;
+    } else {
+         n++;
+       getNumber.innerHTML = n;
+        getNumber.style.fontSize = n;
     }
-    
+       
+       
+   
 }
