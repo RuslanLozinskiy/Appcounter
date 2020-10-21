@@ -6,7 +6,7 @@ function start() {
     } else {
          n++;
        getNumber.innerHTML = n;
-        getNumber.style.fontSize = n;
+        
     }
        
        
