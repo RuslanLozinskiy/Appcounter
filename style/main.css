@@ -1,9 +1,22 @@
 #container {
     height: 200px;
     width: 200px;
-    background-color: chocolate;
-    margin: 250px auto;
-    font-size: 200%;
-    text-align: center;
+    background-color: black;
+    font-size: 300%;
+    position: absolute;
+    top: 28%;
+    left: 43%;
+    border: 2px solid gray;
+    border-radius: 100%;
+    color: aliceblue;
     
+}
+#count {
+    position: relative;
+    
+    left: 45%;
+    
+}
+body {
+    background-color: black;
 }
